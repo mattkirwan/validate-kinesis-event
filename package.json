@@ -1,0 +1,29 @@
+{
+  "name": "validate-kinesis-event",
+  "version": "0.0.1",
+  "description": "A simple NodeJS function for validating an incoming AWS Kinesis event",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattkirwan/validate-kinesis-event.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "kinesis",
+    "event",
+    "validate"
+  ],
+  "author": "Matt Kirwan <lkjsad@fastmail.im>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattkirwan/validate-kinesis-event/issues"
+  },
+  "homepage": "https://github.com/mattkirwan/validate-kinesis-event#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
