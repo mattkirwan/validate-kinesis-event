@@ -4,7 +4,7 @@
   "description": "A simple NodeJS function for validating an incoming AWS Kinesis event",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -w"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/mattkirwan/validate-kinesis-event#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "mocha": "^6.1.4"
   }
 }
