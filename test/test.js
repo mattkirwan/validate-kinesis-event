@@ -50,4 +50,28 @@ describe("#validateKinesisEvent()", () => {
         return validateKinesisEvent(event).should.be.rejectedWith("Kinesis event.Records does not contain only Objects")
     })
 
+    it("should reject if a record within event.Records does not contain a kinesis key", () => {
+        let event = {Records:[
+            {NotAKinesisKey: {}},
+            {kinesis: {}},
+        ]}
+
+        return validateKinesisEvent(event).should.be.rejectedWith("Kinesis event.Record record does not contain a kinesis key")
+    })
+
+    it("should reject if a kinesis record within event.Records does not contain a data key", () => {
+        let event = {Records:[
+            {kinesis: {NotAKinesisKey: ""}},
+            {kinesis: {data: ""}},
+        ]}
+
+        return validateKinesisEvent(event).should.be.rejectedWith("Kinesis event.Record kinesis record does not contain a data key")
+    })
+
+    it("should resolve if a valid event is passed", () => {
+        let event = require("./fixtures.json")
+
+        return validateKinesisEvent(event).should.be.fulfilled.and.eventually.equal("Valid Kinesis event")
+    })
+
 })
