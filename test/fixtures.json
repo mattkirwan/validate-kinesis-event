@@ -1,0 +1,66 @@
+{
+    "Records": [{
+        "kinesis": {
+            "kinesisSchemaVersion": "1.0",                                                                                                                                                                                  
+            "partitionKey": "897f177e-101f-4265-bf5b-147ee8b229fb",                                                                                                                                                         
+            "sequenceNumber": "XXXXXXXXXX1816817235612706300453870066123251963519827970",                                                                                                                                   
+            "data": "",
+            "approximateArrivalTimestamp": 1554902653.095
+        },                                                                                                                                                                                            
+        "eventSource": "aws:kinesis",
+        "eventVersion": "1.0",                        
+        "eventID": "shardId-000000000000:XXXXXXXXXX1816817235612704062428737578721217680594960386",                                                                                                                    
+        "eventName": "aws:kinesis:record",
+        "invokeIdentityArn": "arn:aws:iam::XXXXXXXXXXXX:role/serverlesstest-dev-eu-west-1-lambdaRole",
+        "awsRegion": "eu-west-1",                                                                                                                                                                                       
+        "eventSourceARN": "arn:aws:kinesis:eu-west-1:XXXXXXXXXXXX:stream/topic.name"
+    },
+    {
+        "kinesis": { 
+                "kinesisSchemaVersion": "1.0",                         
+                "partitionKey": "87e405f1-800b-4036-9d52-e9d4fde06de5",                      
+                "sequenceNumber": "XXXXXXXXXX1816817235612714505220636846359740882524045314",                                                                                                                                     
+                "data": "",
+                "approximateArrivalTimestamp": 1554909274.018
+        },
+        "eventSource": "aws:kinesis",                      
+        "eventVersion": "1.0",                           
+        "eventID": "shardId-000000000000:XXXXXXXXXX1816817235612714505220636846359740882524045314",
+        "eventName": "aws:kinesis:record",               
+        "invokeIdentityArn": "arn:aws:iam::XXXXXXXXXXXX:role/serverlesstest-dev-eu-west-1-lambdaRole",
+        "awsRegion": "eu-west-1",        
+        "eventSourceARN": "arn:aws:kinesis:eu-west-1:XXXXXXXXXXXX:stream/topic.name"
+    },
+    { "kinesis":                                                                                                                           
+        {
+            "kinesisSchemaVersion": "1.0",                                                                                                                                                                                    
+            "partitionKey": "d95bf711-6eed-47f0-a860-51cf811962fd",                                                                                                                                                           
+            "sequenceNumber": "XXXXXXXXXX1816817235612714761446419684582326950621609986",                                                                                                                                     
+            "data": "",
+            "approximateArrivalTimestamp": 1554909354.296
+        },
+       "eventSource": "aws:kinesis",                       
+       "eventVersion": "1.0",                           
+       "eventID": "shardId-000000000000:XXXXXXXXXX1816817235612714761446419684582326950621609986",
+       "eventName": "aws:kinesis:record",               
+       "invokeIdentityArn": "arn:aws:iam::XXXXXXXXXXXX:role/serverlesstest-dev-eu-west-1-lambdaRole",
+       "awsRegion": "eu-west-1",             
+       "eventSourceARN": "arn:aws:kinesis:eu-west-1:XXXXXXXXXXXX:stream/topic.name"
+    },
+    { "kinesis":
+        {
+            "kinesisSchemaVersion": "1.0",
+            "partitionKey": "c1d5b26d-18a9-4755-81b5-79e0893af9b7",
+            "sequenceNumber": "XXXXXXXXXX1816817235612716120876250286315174719970607106",
+            "data": "",
+            "approximateArrivalTimestamp": 1554909771.309
+        },
+        "eventSource": "aws:kinesis",
+        "eventVersion": "1.0",
+        "eventID": "shardId-000000000000:XXXXXXXXXX1816817235612716120876250286315174719970607106",
+        "eventName": "aws:kinesis:record",
+        "invokeIdentityArn": "arn:aws:iam::XXXXXXXXXXXX:role/serverlesstest-dev-eu-west-1-lambdaRole",
+        "awsRegion": "eu-west-1",
+        "eventSourceARN": "arn:aws:kinesis:eu-west-1:XXXXXXXXXXXX:stream/topic.name"
+    }]
+}
