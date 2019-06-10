@@ -1,5 +1,5 @@
 {
-  "name": "validate-kinesis-event",
+  "name": "@mattkirwan/validate-kinesis-event",
   "version": "0.0.1",
   "description": "A simple NodeJS function for validating an incoming AWS Kinesis event",
   "main": "index.js",
@@ -27,5 +27,9 @@
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "mocha": "^6.1.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
